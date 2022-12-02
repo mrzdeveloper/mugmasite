@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- <link rel="stylesheet" href="/css/bootstrap.min.css" /> -->
+  <link rel="stylesheet" href="/fontawesome/css/all.css" />
+  <link rel="stylesheet" href="/fabootstrap/bootstrap.fa.min.css" />
+  <link rel="icon" href="/images/logo.png" />
+  <link rel="stylesheet" href="./cssa/owl.carousel.min.css">
+  <link rel="stylesheet" href="./cssa/owl.theme.default.min.css">
+  <title>MugStore</title>
+
+
+</head>
+
+<body class="bg-light">
+  <!--........................................ navigation bar -->
+  <section class="navstyle">
+    <nav class="nav navbar navbar-expand-lg navbar-light shadow-sm">
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#my-collapse-nav">
+        <span class="navbar-toggler-icon"></span>
+        <i class="bi bi-three-dots"></i>
+      </button>
+      <div class="icon">
+        <a href="./home.html"><i class="fas fa-mug-hot text-secondary ml-3" style="font-size: 20px"></i></a>
+      </div>
+      <div class="collapse navbar-collapse" id="my-collapse-nav">
+        <ul class="navbar-nav list-unstyled my-5 my-md-0">
+          <li class="nav-item">
+            <a href="" class="nav-link mx-2">خانه</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link mx-2">گالری</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">محصولات</a>
+            <div class="dropdown-menu text-right">
+              <a href="" class="dropdown-item">ماگ ساده</a>
+              <a href="" class="dropdown-item">ماگ عروسکی</a>
+              <a href="" class="dropdown-item">ماگ مسافرتی</a>
+              <a href="" class="dropdown-item">ماگ استیل</a>
+              <a href="" class="dropdown-item">ماگ کوهنوردی</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="./signout.html" class="nav-link mx-2">عضویت</a>
+          </li>
+          <li class="nav-item">
+            <a href="./login.html" class="nav-link mx-2">ورود</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link mx-2">ارتباط با ما</a>
+          </li>
+        </ul>
+        <form action="" class="form-inline mr-auto">
+          <div class="input-group">
+            <input type="text" class="form-control text-center" placeholder="جستجو در سایت">
+            <div class="input-group-append">
+              <button class="btn btn-outline-warning mx-1">
+                <i class="fas fa-search-plus"></i>
+              </button>
+            </div>
+          </div>
+        </form>
+
+      </div>
+    </nav>
+  </section>
+
+
+  <!--......................................start slide show -->
+  <section>
+    <div class="container-fluid px-0 py-1">
+      <div class="row">
+        <div class="col-12">
+          <div id="slider1" class="carousel slide p-0" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li class="" data-target="#slider1" data-slide-to="0"></li>
+              <li class="" data-target="#slider1" data-slide-to="1"></li>
+              <li class="" data-target="#slider1" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" style="border-radius:20px;">
+              <div class="carousel-item active">
+                <img class="d-block" src="./images/b1.jpg" alt="slide-1">
+                <div class="carousel-caption">
+                  <h4>بهترین ماگ های عروسکی</h4>
+                  <p>جدیدترین و زیباترین ها را از ما بخواهید</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block" src="./images/b2.jpg" alt="slide-2">
+                <div class="carousel-caption">
+                  <h4>بهترین ماگ های عروسکی</h4>
+                  <p>جدیدترین و زیباترین ها را از ما بخواهید</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block " src="./images/b3.jpg" alt="slide-3">
+                <div class="carousel-caption">
+                  <h4>بهترین ماگ های عروسکی</h4>
+                  <p>جدیدترین و زیباترین ها را از ما بخواهید</p>
+                </div>
+              </div>
+              <div>
+                <a href="#slider1" class="carousel-control-prev" data-slide="prev"><span
+                    class="carousel-control-prev-icon"></span></a>
+                <a href="#slider1" class="carousel-control-next" data-slide="next"><span
+                    class="carousel-control-next-icon"></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ......................................start timer hot offer.......... -->
+  <section>
+    <div class="row">
+      <div class="col">
+        <div id="timer" class="time-rem">
+          <span id="s">00</span>
+          <span id="m">00</span>
+          <span id="h">05</span>
+          <p class="time-title">زمان باقی مانده</p>
+        </div>
+        <div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- .......................................start cart -->
+  <section>
+    <div class="card-new">
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="shoping-card">
+            <div class="imagesec">
+              <img src="./images/mug.png" alt="">
+              <span class="offer">پیشنهاد ویژه</span>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <div class="title">
+              <p>نام محصول</p>
+            </div>
+            <div class="btn">
+              <div class="right">
+                <span class="price">قیمت محصول11</span>
+              </div>
+              <div class="left">
+                <div class="ex-btn">
+                  <a href="" class="ex-text">علاقه</a>
+                  <a href="" class="ex-icon"><i class="fas fa-heart"></i></a>
+                </div>
+                <div class="ex-btn">
+                  <a href="" class="ex-text">خرید</a>
+                  <a href="" class="ex-icon"><i class="fas fa-basket-shopping"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="shoping-card">
+            <div class="imagesec">
+              <img src="./images/mug.png" alt="">
+              <span class="offer">پیشنهاد ویژه</span>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <div class="title">
+              <p>نام محصول</p>
+            </div>
+            <div class="btn">
+              <div class="right">
+                <span class="price">قیمت محصول11</span>
+              </div>
+              <div class="left">
+                <div class="ex-btn">
+                  <a href="" class="ex-text">علاقه</a>
+                  <a href="" class="ex-icon"><i class="fas fa-heart"></i></a>
+                </div>
+                <div class="ex-btn">
+                  <a href="" class="ex-text">خرید</a>
+                  <a href="" class="ex-icon"><i class="fas fa-basket-shopping"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="shoping-card">
+            <div class="imagesec">
+              <img src="./images/mug.png" alt="">
+              <span class="offer">پیشنهاد ویژه</span>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <div class="title">
+              <p>نام محصول</p>
+            </div>
+            <div class="btn">
+              <div class="right">
+                <span class="price">قیمت محصول11</span>
+              </div>
+              <div class="left">
+                <div class="ex-btn">
+                  <a href="" class="ex-text">علاقه</a>
+                  <a href="" class="ex-icon"><i class="fas fa-heart"></i></a>
+                </div>
+                <div class="ex-btn">
+                  <a href="" class="ex-text">خرید</a>
+                  <a href="" class="ex-icon"><i class="fas fa-basket-shopping"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="shoping-card">
+            <div class="imagesec">
+              <img src="./images/mug.png" alt="">
+              <span class="offer">پیشنهاد ویژه</span>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <div class="title">
+              <p>نام محصول</p>
+            </div>
+            <div class="btn">
+              <div class="right">
+                <span class="price">قیمت محصول11</span>
+              </div>
+              <div class="left">
+                <div class="ex-btn">
+                  <a href="" class="ex-text">علاقه</a>
+                  <a href="" class="ex-icon"><i class="fas fa-heart"></i></a>
+                </div>
+                <div class="ex-btn">
+                  <a href="" class="ex-text">خرید</a>
+                  <a href="" class="ex-icon"><i class="fas fa-basket-shopping"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- .......................................start new product -->
+    <div class="title">
+      <span>هندزفری ها</span>
+    </div>
+    <div id="owl-product" class="owl-carcousel owl-theme">
+      <div class="item">
+        <div class="shoping-card">
+          <div class="img-sec">
+            <img src="./images/h1.jpg" alt="" />
+            <span class="hot-offer">پیشنهاد ویژه</span>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <div class="title">
+            هدست بی سیم رپو مدل S100
+          </div>
+          <div class="buttons">
+            <div class="right">
+              <span class="price">800 هزار تومان</span>
+            </div>
+            <div class="left">
+              <div class="extend-btn">
+                <a class="b-text" href="">علافه</a>
+                <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+              </div>
+              <div class="extend-btn">
+                <a class="b-text" href="">خرید</a>
+                <a class="b-icon" href=""><i class="fas fa-shopping-cart"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="shoping-card">
+          <div class="img-sec">
+            <img src="./images/h2.jpg" alt="" />
+            <span class="hot-offer">پیشنهاد ویژه</span>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <div class="title">
+            هدست بی سیم رپو مدل S100
+          </div>
+          <div class="buttons">
+            <div class="right">
+              <span class="price">800 هزار تومان</span>
+            </div>
+            <div class="left">
+              <div class="extend-btn">
+                <a class="b-text" href="">علافه</a>
+                <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+              </div>
+              <div class="extend-btn">
+                <a class="b-text" href="">خرید</a>
+                <a class="b-icon" href=""><i class="fas fa-shopping-cart"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="shoping-card">
+          <div class="img-sec">
+            <img src="./images/h3.jpg" alt="" />
+            <span class="hot-offer">پیشنهاد ویژه</span>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <div class="title">
+            هدست بی سیم رپو مدل S100
+          </div>
+          <div class="buttons">
+            <div class="right">
+              <span class="price">800 هزار تومان</span>
+            </div>
+            <div class="left">
+              <div class="extend-btn">
+                <a class="b-text" href="">علافه</a>
+                <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+              </div>
+              <div class="extend-btn">
+                <a class="b-text" href="">خرید</a>
+                <a class="b-icon" href=""><i class="fas fa-shopping-cart"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="shoping-card">
+          <div class="img-sec">
+            <img src="./images/h4.jpg" alt="" />
+            <span class="hot-offer">پیشنهاد ویژه</span>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <div class="title">
+            هدست بی سیم رپو مدل S100
+          </div>
+          <div class="buttons">
+            <div class="right">
+              <span class="price">800 هزار تومان</span>
+            </div>
+            <div class="left">
+              <div class="extend-btn">
+                <a class="b-text" href="">علافه</a>
+                <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+              </div>
+              <div class="extend-btn">
+                <a class="b-text" href="">خرید</a>
+                <a class="b-icon" href=""><i class="fas fa-shopping-cart"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="shoping-card">
+          <div class="img-sec">
+            <img src="./images/h5.jpg" alt="" />
+            <span class="hot-offer">پیشنهاد ویژه</span>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <div class="title">
+            هدست بی سیم رپو مدل S100
+          </div>
+          <div class="buttons">
+            <div class="right">
+              <span class="price">800 هزار تومان</span>
+            </div>
+            <div class="left">
+              <div class="extend-btn">
+                <a class="b-text" href="">علافه</a>
+                <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+              </div>
+              <div class="extend-btn">
+                <a class="b-text" href="">خرید</a>
+                <a class="b-icon" href=""><i class="fas fa-shopping-cart"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="shoping-card">
+          <div class="img-sec">
+            <img src="./images/h6.jpg" alt="" />
+            <span class="hot-offer">پیشنهاد ویژه</span>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <div class="title">
+            هدست بی سیم رپو مدل S100
+          </div>
+          <div class="buttons">
+            <div class="right">
+              <span class="price">800 هزار تومان</span>
+            </div>
+            <div class="left">
+              <div class="extend-btn">
+                <a class="b-text" href="">علافه</a>
+                <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+              </div>
+              <div class="extend-btn">
+                <a class="b-text" href="">خرید</a>
+                <a class="b-icon" href=""><i class="fas fa-shopping-cart"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="shoping-card">
+          <div class="img-sec">
+            <img src="./images/h7.jpg" alt="" />
+            <span class="hot-offer">پیشنهاد ویژه</span>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <div class="title">
+            هدست بی سیم رپو مدل S100
+          </div>
+          <div class="buttons">
+            <div class="right">
+              <span class="price">800 هزار تومان</span>
+            </div>
+            <div class="left">
+              <div class="extend-btn">
+                <a class="b-text" href="">علافه</a>
+                <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+              </div>
+              <div class="extend-btn">
+                <a class="b-text" href="">خرید</a>
+                <a class="b-icon" href=""><i class="fas fa-shopping-cart"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="shoping-card">
+          <div class="img-sec">
+            <img src="./images/p1.jpg" alt="" />
+            <span class="hot-offer">پیشنهاد ویژه</span>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <div class="title">
+            هدست بی سیم رپو مدل S100
+          </div>
+          <div class="buttons">
+            <div class="right">
+              <span class="price">800 هزار تومان</span>
+            </div>
+            <div class="left">
+              <div class="extend-btn">
+                <a class="b-text" href="">علافه</a>
+                <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+              </div>
+              <div class="extend-btn">
+                <a class="b-text" href="">خرید</a>
+                <a class="b-icon" href=""><i class="fas fa-shopping-cart"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="shoping-card">
+          <div class="img-sec">
+            <img src="./images/p1.jpg" alt="" />
+            <span class="hot-offer">پیشنهاد ویژه</span>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <div class="title">
+            هدست بی سیم رپو مدل S100
+          </div>
+          <div class="buttons">
+            <div class="right">
+              <span class="price">800 هزار تومان</span>
+            </div>
+            <div class="left">
+              <div class="extend-btn">
+                <a class="b-text" href="">علافه</a>
+                <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+              </div>
+              <div class="extend-btn">
+                <a class="b-text" href="">خرید</a>
+                <a class="b-icon" href=""><i class="fas fa-shopping-cart"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <section class="dragble-list">
+    <div class="title">
+      <span>هندزفری ها</span>
+    </div>
+    <div id="owl-product" class="owl-carousel owl-theme">
+      <div class="item">
+        <div class="card-new">
+          <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+              <div class="shoping-card">
+                <div class="imagesec">
+                  <img src="./images/mug.png" alt="">
+                  <span class="offer">پیشنهاد ویژه</span>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+                <div class="title">
+                  <p>نام محصول</p>
+                </div>
+                <div class="btn">
+                  <div class="right">
+                    <span class="price">قیمت محصول11</span>
+                  </div>
+                  <div class="left">
+                    <div class="ex-btn">
+                      <a href="" class="ex-text">علاقه</a>
+                      <a href="" class="ex-icon"><i class="fas fa-heart"></i></a>
+                    </div>
+                    <div class="ex-btn">
+                      <a href="" class="ex-text">خرید</a>
+                      <a href="" class="ex-icon"><i class="fas fa-basket-shopping"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+  </section>
+  <!-- .......................................start Footer -->
+<section>
+  
+</section>
+  <script src="cssa/jquery.js"></script>
+  <script src="cssa/owl.carousel.min.js"></script>
+
+  <!-- ٫٫٫٫٫٫٫٫٫٫٫٫٫٫٫٫٫٫٫٫٫٫ -->
+  <script src="./index.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+</body>
+
+</html>
